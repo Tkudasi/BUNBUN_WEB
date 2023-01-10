@@ -1,0 +1,174 @@
+@charset "utf-8";
+* {
+    box-sizing: border-box;
+  }
+
+  .navi {
+    background: rgb(255, 255, 255);
+    height: 40px;
+    margin-bottom: 30px;
+    position: sticky;
+    top: 0;
+  }
+
+  .navi ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    border-left: rgb(151, 151, 151) 1px solid;
+  }
+  
+  .navi li {
+    width: 20%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .navi a {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-right: rgb(151, 151, 151) 1px solid;
+  }
+
+  /* BUNBUN */
+.bunbun img{
+    width: 100%; 
+    height: 100%;
+}
+
+.wf-mplus1p { font-family: "M PLUS 1p"; }
+
+/* about(about_anime)アニメについてASDとは？の説明 */
+.anime_content{
+    margin-bottom: 20px;
+}
+
+.about h3{/* アニメについてASDとは？ */
+    font-family: "M PLUS 1p";
+    width: 100%; 
+    height: 100%;
+    padding-left: 5%;
+    font-weight: bold;
+}
+.about p{/* アニメについてASDとは？の説明 */
+    font-family: "M PLUS 1p";
+    width: 100%;
+    height: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/*rogoロゴについてとロゴの画像*/
+
+.rogo h3{/*ロゴについて*/
+    font-family: "M PLUS 1p";
+    font-weight: bold;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.rogo {
+    display: flex; /*横並び*/
+  }
+.rogo .image {/*ロゴ画像*/
+    width: 10%; /*画像サイズ指定*/
+    padding-top: 5%;
+  }
+
+ /*rogo_textロゴ説明文 */
+
+ .rogo_text {
+    display: flex; /*横並び*/
+  }
+  .rogo_text p{/*ロゴ説明文 */
+    font-family: "M PLUS 1p"; /*文字のフォント*/
+    width: 100%;
+    height: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+  }
+.rogo_text img{
+    width: 100%;
+    height: 100%;
+    padding-left: 5%;
+}
+
+/*rogo_imageロゴ説明の画像 */
+
+.rogo_image {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.rogo_image img{
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+/*Example　特徴例 */
+
+.Examples_ASD {
+  width: 100%;
+  display: flex;
+}
+
+.Examples h3{/* ASD特徴例 */
+  font-family: "M PLUS 1p";
+  width: 100%; 
+  height: 100%;
+  padding-left: 5%;
+  font-weight: bold;
+}
+
+.Examples p{
+  padding-bottom: 5%;
+  font-family: "M PLUS 1p"; /*文字のフォント*/
+    width: 100%;
+    height: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+}
+
+.Examples_image {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.Examples_image img{
+  width: 48%;
+  margin-top: 5%;
+}
+
+.Examples_image p{
+  font-family: "M PLUS 1p"; /*文字のフォント*/
+}
+
+.commentback a{
+  padding-top: 10%;
+  position: absolute;
+  width: 50%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.backimg{
+  padding-top: 15%;
+}

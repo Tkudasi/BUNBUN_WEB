@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/destyle.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+    <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p" rel="stylesheet">
+        <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>-->
+<script src="js/smooth-scroll.polyfills.min.js"></script>
+<script>
+    var scroll = new SmoothScroll('a[href*="#"]', {
+        speed: 500,
+        speedAsDuration: true,
+        easing: 'easeInOutCubic', // Easing pattern to use
+    });
+</script>
+</head>
+
+<body>
+<!--///////////////////////////////////////////////////-->
+<div class="header">
+</div>
+<div class="navi">
+    <ul>
+        <li><a href="#aboutanime">アニメについて</a></li>
+        <li><a href="#aboutrogo">ロゴについて</a></li>
+        <li><a href="#asdex">ASDの特徴例</a></li>
+        <li><a href="#comment">コメント</a></li>
+        <li><a href="#bunbun">上へ</a></li>
+    </ul>
+</div>
+<!--///////////////////////////////////////////////////-->
+    <div class="bunbun" id="bunbun">
+        <img src="IMG/BUNBUN.gif" alt="">
+    </div>
+<!--///////////////////////////////////////-->
+    <div class="about" id="aboutanime">
+        <h3 class="about_anime">アニメについて</h3>
+        <p class="text">
+            元々このアニメはASDの子ってどんな感じ？を掴んでもらうために実体験を元に作りました。<br>
+            この女の子は知り合いのASDの子が元です。<br>
+            『ASDについて詳しく知らない人』を『人間について詳しく知らない異星人』に例えてイカ星人として出しています。<br>
+            イカ星人が何も知らずに振り回されるという意味を込めてBUNBUNというタイトルになっています。<br>
+        </p>
+        <h3 class="about_anime">ASDとは？</h3>
+        <p class="text">
+                ASDとは脳の発達機能に偏りがある発達障害の一種です。心の問題ではないので完全に治ることはありません。<br>
+                思ったことをそのまま口にしてしまったり、強いこだわりがあったり、特徴は人によって様々です。
+        </p>
+    </div>
+<!--///////////////////////////////////////////////////-->
+    <div class="rogo" id="aboutrogo">
+        <h3 class="about_rogo">ロゴについて</h3><figure class="image"><img src="IMG/bunbunrogo.png" alt="" width="100%"></figure>
+    </div>
+    <div class="rogo_text">
+        <p class="text">
+            BUNBUNのロゴはアニメーション内でASDの特徴が出た時に出ています。<br>
+            勾玉のような形の青とピンクの線はイカの脚と女の子の髪を模していて、
+            それを対極に配置して振り回されている効果線のようにしました
+        </p>
+    </div>
+    <div class="rogo_image">
+        <img src="IMG/rogo_1.png" alt="">
+        <img src="IMG/rogo_2.png" alt="">
+        <img src="IMG/rogo_3.png" alt="">
+        <img src="IMG/rogo_4.png" alt="">
+    </div>
+<!--///////////////////////////////////////////////////-->
+    <div class="Examples" id="asdex">
+        <h3 class="Examples_ASD">ASDの特徴例</h3>
+        <p>以下はアニメーション内で出した特徴です。これが全てではありません、特徴は人によって様々です。<br>特徴で生活に支障が出ている場合、医師と相談し、ヘルプマークを入手する事ができます。</p>
+    </div>
+    <div class="Examples_image">
+            <img src="IMG/tokutyou1.png" alt="" >
+            <img src="IMG/tokutyou2.png" alt="">
+            <p class="Examples_text">▲聴覚などが敏感</p>
+            <p class="Examples_text">▲曖昧な表現が苦手</p>
+            <img src="IMG/tokutyou3.png" alt="">
+            <img src="IMG/tokutyou4.png" alt="">
+            <p class="Examples_text">▲話を聞く態度をとる<br>事が苦手</p>
+            <p class="Examples_text">▲こだわりが強い</p>
+            <img src="IMG/tokutyou5.png" alt="">
+            <img src="IMG/tokutyou6.png" alt="">
+            <p class="Examples_text">▲外見に関する事を<br>突然言う</p>
+            <p class="Examples_text">▲テーマと関係ない<br>話をする</p>
+            <img src="IMG/tokutyou7.png" alt="">
+            <img src="IMG/tokutyou8.png" alt="">
+            <p class="Examples_text">▲相手の心情を<br>ニュアンスから<br>察する事が苦手</p>
+            <p class="Examples_text">▲雰囲気を読む事が苦手</p>
+    </div>
+<!--///////////////////////////////////////////////////-->
+<div class="commentback" id="comment">   
+ <a href="https://forms.gle/KgpTxP1HogJj2nvU6" class="comment" target="_blank">
+     <img width="100%" src="IMG/comment.png" alt="感想・コメントはこちら">
+ </a>
+ <img class="backimg" width="100%" src="IMG/ikaasihukusuu.png" >
+</div>
+<!--///////////////////////////////////////////////////-->
+</body>
+</html>

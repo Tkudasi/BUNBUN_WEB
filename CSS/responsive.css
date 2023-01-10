@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+/* 一段目about*/
+.about h3 {
+  font-size:20px;
+  margin-bottom: 8px;
+}
+.about p {
+  font-size: 16px;
+  line-height: 1.6em;
+}
+.about {
+  background: url(../IMG/ikaasi.svg);
+  background-repeat: no-repeat;
+  background-position: 0 100px;
+}
+
+
+/* 二段目rogo*/
+
+.rogo h3 {
+  font-size:20px;
+  margin-bottom: 8px;
+}
+.rogo p {
+  font-size: 16px;
+  line-height: 1.6em;
+}
+
+/* 三段目Examples */
+
+.Examples h3 {
+  font-size:20px;
+  margin-bottom: 8px;
+}
+.Examples p {
+  font-size: 16px;
+  line-height: 1.6em;
+}
+
+ /* 小さい幅 */
+ body{
+  max-width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+}
+
+/* スマホ */
+@media (min-width: 576px) {
+  body{
+    max-width: 540px;
+  }
+  
+  .Examples_image{
+    width: 540px;
+    flex-wrap: wrap;
+  }
+}
+
+/* タブレット(ポートレート,縦持ち) */
+@media (min-width: 768px) {
+  body{
+    max-width: 720px;
+  }
+}
+
+/* タブレット(ランドスケープ,横持ち),PC */
+@media (min-width: 992px) {
+  body{
+    max-width: 960px;
+  }
+}
+
+/* PC */
+@media (min-width: 1200px) {
+  body{
+    max-width: 1140px;
+  }
+}
+
+/* PCラージサイズ */
+@media (min-width: 1400px) {
+  body{
+    max-width: 1320px;
+  }
+}
